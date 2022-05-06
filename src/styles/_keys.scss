@@ -24,12 +24,23 @@
   text-shadow: 0 0 0.5rem black;
 }
 
-.clicked {
+.key:hover {
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+.key:active,
+.key.active {
   transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  border-color: #0073ff;
+  box-shadow: 0 0 1rem #0073ff;
 }
 
 kbd {
   display: block;
+}
+
+.clicked {
+  transform: scale(1.1);
+  border-color: #0073ff;
+  box-shadow: 0 0 1rem #0073ff;
 }

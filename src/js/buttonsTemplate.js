@@ -10,6 +10,7 @@ const allKeys = [
         shift: "`",
         unShift: "~",
       },
+      keyCode: "192",
     },
     {
       code: "Digit1",
@@ -21,6 +22,7 @@ const allKeys = [
         shift: "1",
         unShift: "!",
       },
+      keyCode: "49",
     },
     {
       code: "Digit2",
@@ -32,6 +34,7 @@ const allKeys = [
         shift: "2",
         unShift: "@",
       },
+      keyCode: "50",
     },
     {
       code: "Digit3",
@@ -43,6 +46,7 @@ const allKeys = [
         shift: "3",
         unShift: "#",
       },
+      keyCode: "51",
     },
     {
       code: "Digit4",
@@ -54,6 +58,7 @@ const allKeys = [
         shift: "4",
         unShift: "$",
       },
+      keyCode: "52",
     },
     {
       code: "Digit5",
@@ -65,6 +70,7 @@ const allKeys = [
         shift: "5",
         unShift: "%",
       },
+      keyCode: "53",
     },
     {
       code: "Digit6",
@@ -76,6 +82,7 @@ const allKeys = [
         shift: "6",
         unShift: "^",
       },
+      keyCode: "54",
     },
     {
       code: "Digit7",
@@ -87,6 +94,7 @@ const allKeys = [
         shift: "7",
         unShift: "&",
       },
+      keyCode: "55",
     },
     {
       code: "Digit8",
@@ -98,6 +106,7 @@ const allKeys = [
         shift: "8",
         unShift: "*",
       },
+      keyCode: "56",
     },
     {
       code: "Digit9",
@@ -109,6 +118,7 @@ const allKeys = [
         shift: "9",
         unShift: "(",
       },
+      keyCode: "57",
     },
     {
       code: "Digit0",
@@ -120,6 +130,7 @@ const allKeys = [
         shift: "0",
         unShift: ")",
       },
+      keyCode: "48",
     },
     {
       code: "Minus",
@@ -131,6 +142,7 @@ const allKeys = [
         shift: "-",
         unShift: "_",
       },
+      keyCode: "173",
     },
     {
       code: "Equal",
@@ -142,6 +154,7 @@ const allKeys = [
         shift: "=",
         unShift: "+",
       },
+      keyCode: "61",
     },
     {
       code: "Backspace",
@@ -153,6 +166,7 @@ const allKeys = [
         unShift: "⌫",
         shift: "⌫",
       },
+      keyCode: "8",
     },
   ],
   [
@@ -166,6 +180,7 @@ const allKeys = [
         unShift: "↹ Tab",
         shift: "↹ Tab",
       },
+      keyCode: "9",
     },
     {
       code: "KeyQ",
@@ -178,6 +193,7 @@ const allKeys = [
         shift: "Q",
         unShift: "q",
       },
+      keyCode: "81",
     },
     {
       code: "KeyW",
@@ -189,6 +205,7 @@ const allKeys = [
         shift: "W",
         unShift: "w",
       },
+      keyCode: "87",
     },
     {
       code: "KeyE",
@@ -200,6 +217,7 @@ const allKeys = [
         shift: "E",
         unShift: "e",
       },
+      keyCode: "69",
     },
     {
       code: "KeyR",
@@ -211,6 +229,7 @@ const allKeys = [
         shift: "R",
         unShift: "r",
       },
+      keyCode: "82",
     },
     {
       code: "KeyT",
@@ -222,6 +241,7 @@ const allKeys = [
         shift: "T",
         unShift: "t",
       },
+      keyCode: "84",
     },
     {
       code: "KeyY",
@@ -233,6 +253,7 @@ const allKeys = [
         shift: "Y",
         unShift: "y",
       },
+      keyCode: "89",
     },
     {
       code: "KeyU",
@@ -244,6 +265,7 @@ const allKeys = [
         shift: "U",
         unShift: "u",
       },
+      keyCode: "85",
     },
     {
       code: "KeyI",
@@ -255,6 +277,7 @@ const allKeys = [
         shift: "I",
         unShift: "i",
       },
+      keyCode: "73",
     },
     {
       code: "KeyO",
@@ -266,6 +289,7 @@ const allKeys = [
         shift: "O",
         unShift: "o",
       },
+      keyCode: "79",
     },
     {
       code: "KeyP",
@@ -277,6 +301,7 @@ const allKeys = [
         shift: "P",
         unShift: "p",
       },
+      keyCode: "80",
     },
     {
       code: "BracketLeft",
@@ -288,6 +313,7 @@ const allKeys = [
         shift: "{",
         unShift: "[",
       },
+      keyCode: "219",
     },
     {
       code: "BracketRight",
@@ -299,6 +325,7 @@ const allKeys = [
         shift: "}",
         unShift: "]",
       },
+      keyCode: "221",
     },
     {
       code: "Backslash",
@@ -310,6 +337,7 @@ const allKeys = [
         shift: "|",
         unShift: "\\",
       },
+      keyCode: "220",
     },
   ],
   [
@@ -323,6 +351,7 @@ const allKeys = [
         unShift: "🅰 Caps",
         shift: "🅰 Caps",
       },
+      keyCode: "0",
     },
     {
       code: "KeyA",
@@ -334,6 +363,7 @@ const allKeys = [
         unShift: "a",
         shift: "A",
       },
+      keyCode: "65",
     },
     {
       code: "KeyS",
@@ -345,6 +375,7 @@ const allKeys = [
         unShift: "s",
         shift: "S",
       },
+      keyCode: "83",
     },
     {
       code: "KeyD",
@@ -356,6 +387,7 @@ const allKeys = [
         unShift: "d",
         shift: "D",
       },
+      keyCode: "68",
     },
     {
       code: "KeyF",
@@ -367,6 +399,7 @@ const allKeys = [
         shift: "F",
         unShift: "f",
       },
+      keyCode: "70",
     },
     {
       code: "KeyG",
@@ -378,6 +411,7 @@ const allKeys = [
         shift: "G",
         unShift: "g",
       },
+      keyCode: "71",
     },
     {
       code: "KeyH",
@@ -389,6 +423,7 @@ const allKeys = [
         shift: "H",
         unShift: "h",
       },
+      keyCode: "72",
     },
     {
       code: "KeyJ",
@@ -400,6 +435,7 @@ const allKeys = [
         shift: "J",
         unShift: "j",
       },
+      keyCode: "74",
     },
     {
       code: "KeyK",
@@ -411,6 +447,7 @@ const allKeys = [
         shift: "K",
         unShift: "k",
       },
+      keyCode: "75",
     },
     {
       code: "KeyL",
@@ -422,6 +459,7 @@ const allKeys = [
         shift: "L",
         unShift: "l",
       },
+      keyCode: "76",
     },
     {
       code: "Semicolon",
@@ -433,6 +471,7 @@ const allKeys = [
         shift: ":",
         unShift: ";",
       },
+      keyCode: "59",
     },
     {
       code: "Quote",
@@ -444,6 +483,7 @@ const allKeys = [
         shift: '"',
         unShift: "'",
       },
+      keyCode: "222",
     },
     {
       code: "Enter",
@@ -454,6 +494,7 @@ const allKeys = [
         shift: "Enter",
         unShift: "Enter",
       },
+      keyCode: "13",
     },
   ],
   [
@@ -467,6 +508,7 @@ const allKeys = [
         shift: "⇧Shift",
         unShift: "⇧Shift",
       },
+      keyCode: "16",
     },
     {
       code: "KeyZ",
@@ -478,6 +520,7 @@ const allKeys = [
         shift: "Z",
         unShift: "z",
       },
+      keyCode: "90",
     },
     {
       code: "KeyX",
@@ -489,6 +532,7 @@ const allKeys = [
         shift: "X",
         unShift: "x",
       },
+      keyCode: "88",
     },
     {
       code: "KeyC",
@@ -500,6 +544,7 @@ const allKeys = [
         shift: "C",
         unShift: "c",
       },
+      keyCode: "67",
     },
     {
       code: "KeyV",
@@ -511,6 +556,7 @@ const allKeys = [
         shift: "V",
         unShift: "v",
       },
+      keyCode: "86",
     },
     {
       code: "KeyB",
@@ -522,6 +568,7 @@ const allKeys = [
         shift: "B",
         unShift: "b",
       },
+      keyCode: "66",
     },
     {
       code: "KeyN",
@@ -533,6 +580,7 @@ const allKeys = [
         shift: "N",
         unShift: "n",
       },
+      keyCode: "78",
     },
     {
       code: "KeyM",
@@ -544,6 +592,7 @@ const allKeys = [
         shift: "M",
         unShift: "m",
       },
+      keyCode: "77",
     },
     {
       code: "Comma",
@@ -555,6 +604,7 @@ const allKeys = [
         shift: "<",
         unShift: ",",
       },
+      keyCode: "188",
     },
     {
       code: "Period",
@@ -566,6 +616,7 @@ const allKeys = [
         shift: ">",
         unShift: ".",
       },
+      keyCode: "190",
     },
     {
       code: "Slash",
@@ -577,6 +628,7 @@ const allKeys = [
         shift: "?",
         unShift: "/",
       },
+      keyCode: "191",
     },
     {
       code: "ShiftRight",
@@ -588,6 +640,7 @@ const allKeys = [
         shift: "⇧Shift",
         unShift: "⇧Shift",
       },
+      keyCode: "16",
     },
     {
       code: "ArrowUp",
@@ -599,6 +652,7 @@ const allKeys = [
         shift: "⯅",
         unShift: "⯅",
       },
+      keyCode: "38",
     },
   ],
   [
@@ -612,6 +666,7 @@ const allKeys = [
         shift: "Control",
         unShift: "Control",
       },
+      keyCode: "17",
     },
     {
       code: "AltLeft",
@@ -623,6 +678,7 @@ const allKeys = [
         shift: "Alt",
         unShift: "Alt",
       },
+      keyCode: "18",
     },
     {
       code: "Space",
@@ -634,6 +690,7 @@ const allKeys = [
         shift: "Space",
         unShift: "Space",
       },
+      keyCode: "32",
     },
     {
       code: "AltRight",
@@ -645,6 +702,7 @@ const allKeys = [
         shift: "Alt",
         unShift: "Alt",
       },
+      keyCode: "18",
     },
     {
       code: "ControlRight",
@@ -656,6 +714,7 @@ const allKeys = [
         shift: "Control",
         unShift: "Control",
       },
+      keyCode: "17",
     },
     {
       code: "ArrowLeft",
@@ -667,6 +726,7 @@ const allKeys = [
         shift: "⯇",
         unShift: "⯇",
       },
+      keyCode: "37",
     },
     {
       code: "ArrowDown",
@@ -678,6 +738,7 @@ const allKeys = [
         shift: "⯆",
         unShift: "⯆",
       },
+      keyCode: "40",
     },
     {
       code: "ArrowRight",
@@ -689,28 +750,30 @@ const allKeys = [
         shift: "⯈",
         unShift: "⯈",
       },
+      keyCode: "39",
     },
   ],
 ];
-export {allKeys};
 
-//let bigRu = ["Control", "Alt", "Space", "Alt", "Control", "⯇", "⯆", "⯈"];
-//let smallRu = ["Control", "Alt", "Space", "Alt", "Control", "⯇", "⯆", "⯈"];
-//let smallEng =
-//let bigEng = ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "{", "}", "|"];
+export { allKeys };
 
-///console.log(bigRu.split(" "));
-///console.log(smallRu.split(" "));
-//console.log(bigEng.split(" "));
-//console.log(smallEng.split(" "));
+//console.log(allKeys);
+//let row1 = "192 49 50 51 52 53 54 55 56 57 48 173 61 8";
+//let row2 = "9 81 87 69 82 84 89 85 73 79 80 219 221 220";
+//let row3 = "0 65 83 68 70 71 72 74 75 76 59 222 13";
+//let row4 = "16 90 88 67 86 66 78 77 188 190 191 16 38";
+//let row5 = "17 18 32 18 17 37 40 39";
 
-//for (let i = 1; i < allKeys[1].length; i++) {
-////delete allKeys[4][i]["lang"];
-////delete allKeys[4][i]["width"];
-////delete allKeys[4][i]["func"];
+//row1 = row1.split(" ");
+//row2 = row2.split(" ");
+//row3 = row3.split(" ");
+//row4 = row4.split(" ");
+//row5 = row5.split(" ");
+//let allRows = [row1, row2, row3, row4, row5];
 
-////allKeys[4][i]["langRu"] = { shift: bigRu[i], unShift: smallRu[i] };
-//allKeys[1][i]["langEng"] = { shift: bigEng[i - 1], unShift: smallEng[i - 1] };
+//for (let i = 0; i < allKeys.length; i++) {
+  //for (let j = 0; j < allKeys[i].length; j++) {
+    //allKeys[i][j]["keyCode"] = allRows[i][j];
+  //}
 //}
 
-//console.log(allKeys[1]);

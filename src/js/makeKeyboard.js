@@ -1,18 +1,21 @@
-import { keysDom } from "./makeButtons";
+import {
+  langEngShift,
+  langEngUnShift,
+  langRuShift,
+  langRuUnShift,
+} from "./makeButtons";
 
-function makeKeyboard(keysDom) {
+function makeKeyboard(shift = false, lang = "langEng") {
   let body = document.querySelector("body");
-  let wrapper = document.createElement("div");
-  wrapper.setAttribute("class", "wrapper");
-  let textareaCont = document.createElement("div");
-  textareaCont.setAttribute("class", "text-area");
-  let textArea = document.createElement("textarea");
-  textareaCont.append(textArea);
-  wrapper.append(textareaCont);
-  let keys = keysDom[3];
-  body.append(wrapper);
-  body.append(keys);
+  if (!shift && lang === "langEng") {
+    body.append(langEngUnShift);
+  } else if (shift && lang === "langEng") {
+    body.append(langEngShift);
+  } else if (!shift && lang === "langRu") {
+    body.append(langRuUnShift);
+  } else if (shift && lang === "langRu") {
+    body.append(langRuShift);
+  }
 }
 
-//window.onload(makeKeyboard(keysDom));
-document.DOMContentLoaded = makeKeyboard(keysDom);
+export default makeKeyboard;
