@@ -7,8 +7,8 @@ const allKeys = [
         shift: "Ё",
       },
       langEng: {
-        shift: "`",
-        unShift: "~",
+        shift: "~",
+        unShift: "`",
       },
       keyCode: "192",
     },
@@ -19,8 +19,8 @@ const allKeys = [
         shift: "!",
       },
       langEng: {
-        shift: "1",
-        unShift: "!",
+        shift: "!",
+        unShift: "1",
       },
       keyCode: "49",
     },
@@ -31,8 +31,8 @@ const allKeys = [
         shift: '"',
       },
       langEng: {
-        shift: "2",
-        unShift: "@",
+        shift: "@",
+        unShift: "2",
       },
       keyCode: "50",
     },
@@ -43,8 +43,8 @@ const allKeys = [
         shift: "№",
       },
       langEng: {
-        shift: "3",
-        unShift: "#",
+        shift: "#",
+        unShift: "3",
       },
       keyCode: "51",
     },
@@ -55,8 +55,8 @@ const allKeys = [
         shift: ";",
       },
       langEng: {
-        shift: "4",
-        unShift: "$",
+        shift: "$",
+        unShift: "4",
       },
       keyCode: "52",
     },
@@ -67,8 +67,8 @@ const allKeys = [
         shift: "%",
       },
       langEng: {
-        shift: "5",
-        unShift: "%",
+        shift: "%",
+        unShift: "5",
       },
       keyCode: "53",
     },
@@ -79,8 +79,8 @@ const allKeys = [
         shift: ":",
       },
       langEng: {
-        shift: "6",
-        unShift: "^",
+        shift: "^",
+        unShift: "6",
       },
       keyCode: "54",
     },
@@ -91,8 +91,8 @@ const allKeys = [
         shift: "?",
       },
       langEng: {
-        shift: "7",
-        unShift: "&",
+        shift: "&",
+        unShift: "7",
       },
       keyCode: "55",
     },
@@ -103,8 +103,8 @@ const allKeys = [
         shift: "*",
       },
       langEng: {
-        shift: "8",
-        unShift: "*",
+        shift: "*",
+        unShift: "8",
       },
       keyCode: "56",
     },
@@ -115,8 +115,8 @@ const allKeys = [
         shift: "(",
       },
       langEng: {
-        shift: "9",
-        unShift: "(",
+        shift: "(",
+        unShift: "9",
       },
       keyCode: "57",
     },
@@ -127,8 +127,8 @@ const allKeys = [
         shift: ")",
       },
       langEng: {
-        shift: "0",
-        unShift: ")",
+        shift: ")",
+        unShift: "0",
       },
       keyCode: "48",
     },
@@ -139,8 +139,8 @@ const allKeys = [
         shift: "_",
       },
       langEng: {
-        shift: "-",
-        unShift: "_",
+        shift: "_",
+        unShift: "-",
       },
       keyCode: "173",
     },
@@ -151,8 +151,8 @@ const allKeys = [
         shift: "+",
       },
       langEng: {
-        shift: "=",
-        unShift: "+",
+        shift: "+",
+        unShift: "=",
       },
       keyCode: "61",
     },
@@ -339,17 +339,29 @@ const allKeys = [
       },
       keyCode: "220",
     },
+    {
+      code: "Delete",
+      langRu: {
+        unShift: "del",
+        shift: "del",
+      },
+      langEng: {
+        shift: "del",
+        unShift: "del",
+      },
+      keyCode: "46",
+    },
   ],
   [
     {
       code: "CapsLock",
       langRu: {
-        unShift: "🅰 Caps",
-        shift: "🅰 Caps",
+        unShift: "Caps lock",
+        shift: "Caps lock",
       },
       langEng: {
-        unShift: "🅰 Caps",
-        shift: "🅰 Caps",
+        unShift: "Caps lock",
+        shift: "Caps lock",
       },
       keyCode: "0",
     },
@@ -489,6 +501,7 @@ const allKeys = [
       code: "Enter",
       langRu: {
         shift: "Enter",
+        unShift: "Enter",
       },
       langEng: {
         shift: "Enter",
@@ -772,8 +785,7 @@ export { allKeys };
 //let allRows = [row1, row2, row3, row4, row5];
 
 //for (let i = 0; i < allKeys.length; i++) {
-  //for (let j = 0; j < allKeys[i].length; j++) {
-    //allKeys[i][j]["keyCode"] = allRows[i][j];
-  //}
+//for (let j = 0; j < allKeys[i].length; j++) {
+//allKeys[i][j]["keyCode"] = allRows[i][j];
 //}
-
+//}

@@ -6,6 +6,8 @@ import {
 } from "./makeButtons";
 
 function makeKeyboard(shift = false, lang = "langEng") {
+  let keys = document.querySelector('.keys');
+  if(keys) keys.remove();
   let body = document.querySelector("body");
   if (!shift && lang === "langEng") {
     body.append(langEngUnShift);

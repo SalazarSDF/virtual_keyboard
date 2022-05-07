@@ -5,3 +5,4 @@ import "../src/js/buttonsTemplate.js";
 import "../src/js/makeKeyboard.js";
 
 import "../src/js/brainCenter.js";
+import "../src/js/changeKeyBoard.js";
