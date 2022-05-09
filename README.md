@@ -28,6 +28,3 @@
   - [x] ESLint is used (+10)
   - [x] ES6 features are used (+10)
   - [x] Requirements to the repository, commits and pull request are met (+10)
-- [x] Penalties
-  - [x] Errors while app's working. (-10 for each, but no more than the total number of points for requirement implementation)
-  - [x] Not comply with the requirements for Pull Request, repository, commits names (-10) scores by mentor
