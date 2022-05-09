@@ -2,7 +2,7 @@
 
    https://github.com/rolling-scopes-school/tasks/blob/master/tasks/virtual-keyboard/virtual-keyboard-en.md
 
-2. App screenshot: Markup : ![screenshot](./src/assets/Keyboard-screen.png)
+2. App screenshot: Markup : ![screenshot](src/assets/Keyboard-screen.png)
 
 3. Deploy:
 
