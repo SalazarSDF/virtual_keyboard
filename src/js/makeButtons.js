@@ -22,13 +22,14 @@ function makeButtons(allKeys, lang, shift) {
 
 function keyAnimationPush(e) {
   let allKeys = [langEngShift, langEngUnShift, langRuShift, langRuUnShift];
-  if (e.keyCode === 0) {
+  if (e.keyCode === 0 || e.keyCode === 20) {
     allKeys.forEach((el) => {
-      el.querySelector(`div[data-key="${e.keyCode}"]`).classList.toggle(
+      el.querySelector(`div[data-key="${0}"]`).classList.toggle(
         "clicked"
       );
     });
-  } else {
+  } 
+  else {
     allKeys.forEach((el) => {
       let jopa = el.querySelectorAll(`div[data-key="${e.keyCode}"]`);
       for (let i = 0; i < jopa.length; i++) {
@@ -38,7 +39,7 @@ function keyAnimationPush(e) {
   }
 }
 function keyAnimationPushUp(e) {
-  if (e.keyCode === 0) return;
+  if (e.keyCode === 0 || e.keyCode === 20) return;
   let allKeys = [langEngShift, langEngUnShift, langRuShift, langRuUnShift];
   allKeys.forEach((el) => {
     let jopa = el.querySelectorAll(`div[data-key="${e.keyCode}"]`);

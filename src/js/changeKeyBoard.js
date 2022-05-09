@@ -15,7 +15,7 @@ function changeKeyboard(e) {
       localStorage.setItem("shift", JSON.stringify(shift));
       makeKeyboard(JSON.parse(localStorage.shift), localStorage.lang);
     }
-    if (e.keyCode === 0) {
+    if (e.keyCode === 0 || e.keyCode === 20) {
       let shift = JSON.parse(localStorage.shift);
       shift = shift ? false : true;
       localStorage.setItem("shift", JSON.stringify(shift));

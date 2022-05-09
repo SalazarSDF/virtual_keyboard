@@ -1,7 +1,11 @@
 import makeDescription from "./makeDiscription";
 import { makeTextArea, textAreaBrain } from "./makeTextArea";
 import makeKeyboard from "./makeKeyboard";
-import { keyAnimationClick, keyAnimationPush, keyAnimationPushUp } from "./makeButtons";
+import {
+  keyAnimationClick,
+  keyAnimationPush,
+  keyAnimationPushUp,
+} from "./makeButtons";
 import changeKeyboard from "./changeKeyBoard";
 
 function init() {
@@ -12,12 +16,13 @@ function init() {
 }
 
 function storage(shift, lang) {
-  shift = JSON.parse(localStorage.getItem('shift')) || false;
-  if(shift){
+  shift = JSON.parse(localStorage.getItem("shift")) || false;
+  if (shift) {
     // color for shift after update;
-    window.dispatchEvent(new KeyboardEvent('keydown', {'keyCode': 0}));
+    //window.dispatchEvent(new KeyboardEvent("keydown", { keyCode: 0 }));
+    keyPush(new KeyboardEvent("keydown", { keyCode: 0 }));
   }
-  lang = localStorage.getItem('lang') || "langEng";
+  lang = localStorage.getItem("lang") || "langEng";
   localStorage.setItem("shift", JSON.stringify(shift));
   localStorage.setItem("lang", lang);
   return [shift, lang];
@@ -36,5 +41,5 @@ function keyPushUp(e) {
 
 window.addEventListener("keydown", keyPush);
 window.addEventListener("keyup", keyPushUp);
-window.addEventListener('click', keyAnimationClick);
+window.addEventListener("click", keyAnimationClick);
 window.onload = init();
