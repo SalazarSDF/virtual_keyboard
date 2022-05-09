@@ -26,11 +26,7 @@ module.exports = merge(common, {
       filename: "index.html",
       template: "src/index.html",
       minify: true, // if prod change to true
-    }),
-    new HtmlWebpackPlugin({
-      filename: "our_pets.html",
-      template: "src/our_pets.html",
-      minify: true,
+      favicon: "src/assets/favicon.ico",
     }),
     new MiniCssExtractPlugin({
       filename: "[name].css",

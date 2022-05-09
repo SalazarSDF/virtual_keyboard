@@ -16,6 +16,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: "index.html",
       template: "src/index.html",
+      favicon: "src/assets/favicon.ico",
     }),
   ],
   module: {
@@ -25,7 +26,7 @@ module.exports = {
         type: "asset/resource",
       },
       {
-        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        test: /\.(png|svg|jpg|jpeg|gif|ico)$/i,
         type: "asset/resource",
       },
       {

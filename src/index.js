@@ -6,3 +6,4 @@ import "../src/js/makeKeyboard.js";
 
 import "../src/js/brainCenter.js";
 import "../src/js/changeKeyBoard.js";
+import "../src/assets/favicon.ico"

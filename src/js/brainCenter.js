@@ -1,9 +1,11 @@
+import makeDescription from "./makeDiscription";
 import { makeTextArea, textAreaBrain } from "./makeTextArea";
 import makeKeyboard from "./makeKeyboard";
 import { keyAnimationClick, keyAnimationPush, keyAnimationPushUp } from "./makeButtons";
 import changeKeyboard from "./changeKeyBoard";
 
 function init() {
+  makeDescription();
   makeTextArea();
   let [shift, lang] = storage();
   makeKeyboard(shift, lang);

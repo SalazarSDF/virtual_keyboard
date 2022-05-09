@@ -34,7 +34,10 @@ function textAreaBrain(e) {
   if (e.keyCode == 9) {
     //tab
     e.preventDefault();
-    textarea.value += "    ";
+    textarea.value =
+      textarea.value.slice(0, textarea.selectionStart) +
+      "    " +
+      textarea.value.slice(textarea.selectionEnd);
   }
   // Arrows
   if (e.keyCode == 37) {
@@ -57,13 +60,36 @@ function textAreaBrain(e) {
     textarea.selectionEnd = textarea.textLength;
   }
   if (e.keyCode == 8) {
+    // <--
+    let start = textarea.selectionStart;
     textarea.value =
       textarea.value.slice(0, textarea.selectionStart - 1) +
       textarea.value.slice(textarea.selectionEnd);
+    textarea.selectionStart = start-1;
+    textarea.selectionEnd = start-1;
   }
   if (e.keyCode == 32) {
-    textarea.value += " ";
+    // space
+    textarea.value =
+      textarea.value.slice(0, textarea.selectionStart) +
+      " " +
+      textarea.value.slice(textarea.selectionEnd);
   }
-  console.log(e.keyCode);
+  if (e.keyCode == 46) {
+    //del
+    let start = textarea.selectionStart;
+    textarea.value =
+      textarea.value.slice(0, textarea.selectionStart) +
+      textarea.value.slice(textarea.selectionEnd + 1);
+    textarea.selectionStart = start;
+    textarea.selectionEnd = start;
+  }
+  if (e.keyCode == 13) {
+    // enter
+    textarea.value =
+      textarea.value.slice(0, textarea.selectionStart) +
+      "\n" +
+      textarea.value.slice(textarea.selectionEnd);
+  }
 }
 export { makeTextArea, textAreaBrain };
